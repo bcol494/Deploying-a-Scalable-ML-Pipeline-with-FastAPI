@@ -40,9 +40,6 @@ def test_compute_model_metrics():
     preds = np.array([1, 0, 1, 0, 0])
     precision, recall, f1 = compute_model_metrics(y, preds)
 
-    assert isinstance(precision, float)
-    assert isinstance(recall, float)
-    assert isinstance(f1, float)
-    assert 0 <= precision <= 1
-    assert 0 <= recall <= 1
-    assert 0 <= f1 <= 1
+    assert precision == pytest.approx(1.0)
+    assert recall == pytest.approx(2 / 3)
+    assert f1 == pytest.approx(0.8)
