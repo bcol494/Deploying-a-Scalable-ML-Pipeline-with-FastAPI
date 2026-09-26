@@ -3,7 +3,7 @@
 For additional information see the Model Card paper: https://arxiv.org/pdf/1810.03993.pdf
 
 ## Model Details
-Brigina Coleman created this model. September 2026. Model Version 1.0.0. It is a RandomForest Classifier model developed using the Scikit-learn library, implemented as part of the Udacity Machine Learning DevOps course that references the UCI Cencus Income Dataset.
+Brigina Coleman created this model. September 2026. Model Version 1.0.0. It is a RandomForest Classifier model developed using the Scikit-learn library, implemented as part of the Udacity Machine Learning DevOps course that references the UCI Census Income Dataset.
 ## Intended Use
 This model was designed for educational purposes and should be used to predict whether an individual's salary is above $50,000 per year based on demographic and employment attributes. The intended users are Machine learning engineers, business analytics teams or data science evaluators.
 ## Training Data
